@@ -202,7 +202,7 @@ class Sd_Slider_Admin {
 			$is_valid_request = false;
 			$data['message'] = __('Invalid request.', 'sd-slider');
 		}
-		if (!current_user_can('manage_options')) {
+		if (!current_user_can('edit_posts')) {
 			$is_valid_request = false;
 			$data['message'] = __('You are not allow to do this!', 'sd-slider');
 		}
@@ -237,7 +237,7 @@ class Sd_Slider_Admin {
 			$is_valid_request = false;
 			$data['message'] = __('Invalid request.', 'sd-slider');
 		}
-		if (!current_user_can('manage_options')) {
+		if (!current_user_can('edit_posts')) {
 			$is_valid_request = false;
 			$data['message'] = __('You are not allow to do this!', 'sd-slider');
 		}
@@ -274,7 +274,7 @@ class Sd_Slider_Admin {
 			$is_valid_request = false;
 			$data['message'] = __('Invalid request.', 'sd-slider');
 		}
-		if (!current_user_can('manage_options')) {
+		if (!current_user_can('edit_posts')) {
 			$is_valid_request = false;
 			$data['message'] = __('You are not allow to do this!', 'sd-slider');
 		}
